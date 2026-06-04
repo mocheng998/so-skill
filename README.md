@@ -47,6 +47,14 @@ skill-name/
 如果目标目录已存在，请覆盖更新。安装完成后告诉我安装了哪些 skills。
 ```
 
+如果只想安装指定 skill，可以把 `image-generation` 换成需要安装的目录名：
+
+```text
+请从 https://github.com/mocheng998/so-skill.git 安装指定 Codex skill：image-generation。
+只复制仓库中的 image-generation 目录到我的 ~/.codex/skills/image-generation；
+如果目标目录已存在，请覆盖更新。安装完成后告诉我这个 skill 是否安装成功。
+```
+
 ### Windows PowerShell
 
 安装单个 skill：

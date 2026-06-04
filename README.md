@@ -37,6 +37,16 @@ skill-name/
 
 ## 安装
 
+### 让 Codex 自动安装
+
+在 Codex 里直接发送下面这段话即可让 Codex 帮你安装：
+
+```text
+请从 https://github.com/mocheng998/so-skill.git 安装 Codex skills。
+把仓库中所有包含 SKILL.md 的目录复制到我的 ~/.codex/skills 目录下；
+如果目标目录已存在，请覆盖更新。安装完成后告诉我安装了哪些 skills。
+```
+
 ### Windows PowerShell
 
 安装单个 skill：
@@ -120,4 +130,3 @@ export IMAGE_API_KEY="你的 API Key"
 ## Git 忽略规则
 
 仓库会忽略 Python 缓存、虚拟环境、本地配置、日志和生成图片目录。私有配置应放在用户目录，例如 `~/.codex/*.json`，不要放进仓库。
-

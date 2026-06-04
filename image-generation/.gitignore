@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+
+# Generated images and local outputs
+image/
+outputs/
+
+# Local secrets. The recommended private config lives outside this repo,
+# but keep this here in case someone creates a local copy while testing.
+image-generation.json
+*.env
+.env*

@@ -9,6 +9,15 @@
 | Skill | 说明 | 路径 |
 | --- | --- | --- |
 | `image-generation` | 使用用户配置的 OpenAI-compatible 图片接口进行文生图和改图，默认模型为 `gpt-image-2`。 | [`image-generation/`](image-generation/) |
+| Accio skills | 从 Accio 本地整理导入的 126 个 skills，按本仓库约定以独立目录存放。 | [`ACCIO_SKILLS.md`](ACCIO_SKILLS.md) |
+
+## Accio Skills
+
+已将 Accio 本地技能整理到本仓库根目录。每个技能目录均包含 `SKILL.md`，可以按普通 Codex skill 的方式安装或维护。
+
+- 中文索引：[`ACCIO_SKILLS.md`](ACCIO_SKILLS.md)
+- CSV 索引：[`ACCIO_SKILLS.csv`](ACCIO_SKILLS.csv)
+- 纯文本名称列表：[`ACCIO_SKILL_NAMES.txt`](ACCIO_SKILL_NAMES.txt)
 
 ## 仓库结构
 
